@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>
+    Pro Dark Dashboard
+  </title>
+  <link rel="stylesheet"
+        href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<div class="app">
+
+  <div class="sidebar">
+
+    <div>
+
+      <div class="logo">
+        ISMATH <span>DASHBOARD</span>
+      </div>
+
+      <div class="menu">
+
+        <a class="active"
+           href="dashboard.html">
+          📊 Dashboard
+        </a>
+
+        <a href="analytics.html">
+          📈 Analytics
+        </a>
+
+        <a href="users.html">
+          👤 Users
+        </a>
+
+        <a href="orders.html">
+          📦 Orders
+        </a>
+
+        <a href="messages.html">
+          💬 Messages
+        </a>
+
+        <a href="notifications.html">
+          🔔 Notifications
+        </a>
+
+        <a href="settings.html">
+          ⚙ Settings
+        </a>
+
+      </div>
+
+    </div>
+
+    <div>
+
+      <div class="profile">
+
+        <div class="avatar"></div>
+
+        <div>
+
+          <b>
+            Admin
+          </b>
+
+          <small class="online">
+            ● Online
+          </small>
+
+        </div>
+
+      </div>
+
+      <div class="logout">
+
+        <a href="#logout-popup">
+          🚪 Logout
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <main class="main">
+
+    <header class="topbar">
+
+      <div>
+
+        <h1>
+          Welcome back 👋
+        </h1>
+
+        <p>
+          Dashboard overview
+        </p>
+
+      </div>
+
+      <div class="top-actions">
+
+        <form class="search-box"
+              action="https://www.google.com/search"
+              method="GET">
+
+          <span class="search-icon">
+            🔍
+          </span>
+
+          <input type="text"
+                 name="q"
+                 placeholder="Search dashboard..."
+                 autocomplete="off">
+
+        </form>
+
+        <div class="icon-box">
+
+          🔔
+
+          <span>3</span>
+
+          <div class="dropdown">
+
+            <p>
+              New Order
+            </p>
+
+            <p>
+              Payment Success
+            </p>
+
+            <p>
+              User Joined
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="icon-box">
+
+          💬
+
+          <span>4</span>
+
+          <div class="dropdown">
+
+            <p>
+              Ali: Update?
+            </p>
+
+            <p>
+              Sarah: Issue fixed?
+            </p>
+
+            <p>
+              John: Failed
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </header>
+
+    <section class="kpi">
+
+      <div class="card blue">
+
+        <small>
+          Total Revenue
+        </small>
+
+        <h2>
+          $84,420
+        </h2>
+
+      </div>
+
+      <div class="card green">
+
+        <small>
+          Total Users
+        </small>
+
+        <h2>
+          12,820
+        </h2>
+
+      </div>
+
+      <div class="card orange">
+
+        <small>
+          Total Orders
+        </small>
+
+        <h2>
+          9,240
+        </h2>
+
+      </div>
+
+      <div class="card red">
+
+        <small>
+          Total Profit
+        </small>
+
+        <h2>
+          $42,120
+        </h2>
+
+      </div>
+
+    </section>
+
+    <section class="grid">
+
+      <div class="panel">
+
+        <h3>
+          Revenue Chart
+        </h3>
+
+        <div class="chart">
+
+          <div style="height:40%"></div>
+
+          <div style="height:70%"></div>
+
+          <div style="height:90%"></div>
+
+          <div style="height:60%"></div>
+
+          <div style="height:100%"></div>
+
+          <div style="height:75%"></div>
+
+          <div style="height:50%"></div>
+
+        </div>
+
+      </div>
+
+      <div class="panel">
+
+        <h3>
+          Live Activity
+        </h3>
+
+        <div class="activity">
+
+          <div class="item">
+
+            <div class="left">
+
+              <span class="dot blue"></span>
+
+              <span>
+                New Order
+              </span>
+
+            </div>
+
+            <small>
+              2m
+            </small>
+
+          </div>
+
+          <div class="item">
+
+            <div class="left">
+
+              <span class="dot green"></span>
+
+              <span>
+                Payment Done
+              </span>
+
+            </div>
+
+            <small>
+              5m
+            </small>
+
+          </div>
+
+          <div class="item">
+
+            <div class="left">
+
+              <span class="dot orange"></span>
+
+              <span>
+                New Signup
+              </span>
+
+            </div>
+
+            <small>
+              1h
+            </small>
+
+          </div>
+
+          <div class="item">
+
+            <div class="left">
+
+              <span class="dot red"></span>
+
+              <span>
+                Refund
+              </span>
+
+            </div>
+
+            <small>
+              2h
+            </small>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="table">
+
+      <h3>
+        Recent Transactions
+      </h3>
+
+      <table>
+
+        <tr>
+
+          <th>User</th>
+
+          <th>Status</th>
+
+          <th>Date</th>
+
+          <th>Amount</th>
+
+        </tr>
+
+        <tr>
+
+          <td>Ali Khan</td>
+
+          <td>
+
+            <span class="success">
+              Completed
+            </span>
+
+          </td>
+
+          <td>27 May</td>
+
+          <td>$150</td>
+
+        </tr>
+
+        <tr>
+
+          <td>Sarah Wilson</td>
+
+          <td>
+
+            <span class="pending">
+              Pending
+            </span>
+
+          </td>
+
+          <td>26 May</td>
+
+          <td>$90</td>
+
+        </tr>
+
+        <tr>
+
+          <td>John Carter</td>
+
+          <td>
+
+            <span class="failed">
+              Failed
+            </span>
+
+          </td>
+
+          <td>25 May</td>
+
+          <td>$210</td>
+
+        </tr>
+
+      </table>
+
+    </section>
+
+  </main>
+
+</div>
+
+<div id="logout-popup"
+     class="popup">
+
+  <div class="popup-box">
+
+    <h3>
+      Logout?
+    </h3>
+
+    <p>
+      Are you sure you want to logout?
+    </p>
+
+    <div class="buttons">
+
+      <a href="#"
+         class="cancel">
+        Cancel
+      </a>
+
+      <a href="login.html"
+         class="ok">
+        Yes
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+
+</html>

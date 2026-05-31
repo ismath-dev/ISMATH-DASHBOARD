@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Settings</title>
+<link rel="stylesheet" href="settings.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <div class="sidebar">
+
+    <div>
+
+      <div class="logo">
+        ISMATH <span>DASHBOARD</span>
+      </div>
+
+      <div class="menu">
+
+        <a href="dashboard.html">📊 Dashboard</a>
+        <a href="analytics.html">📈 Analytics</a>
+        <a href="users.html">👤 Users</a>
+        <a href="orders.html">📦 Orders</a>
+        <a href="messages.html">💬 Messages</a>
+        <a href="notifications.html">🔔 Notifications</a>
+        <a class="active" href="settings.html">⚙ Settings</a>
+
+      </div>
+
+    </div>
+
+    <div>
+
+      <div class="profile">
+        <div class="avatar"></div>
+        <div>
+          <b>Admin</b>
+          <small class="online">● Online</small>
+        </div>
+      </div>
+
+      <div class="logout">
+        <a href="index.html">🚪 Logout</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <main class="main">
+
+    <div class="settings-box">
+
+      <h2>⚙ Settings</h2>
+
+      <div class="field">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter Full Name">
+      </div>
+
+      <div class="field">
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter Email Address">
+      </div>
+
+      <div class="field">
+        <label>New Password</label>
+        <input type="password" placeholder="Enter New Password">
+      </div>
+
+      <div class="field">
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm Password">
+      </div>
+
+      <div class="toggle-row">
+        <span>Email Notifications</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="toggle-row">
+        <span>Dark Mode</span>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <a href="#saved-popup" class="save-btn">
+        Save Changes
+      </a>
+
+    </div>
+
+  </main>
+
+</div>
+
+<div id="saved-popup" class="popup">
+
+  <div class="popup-box">
+
+    <h3>✅ Settings Saved</h3>
+
+    <p>Your changes have been updated successfully.</p>
+
+    <a href="#" class="ok-btn">OK</a>
+
+  </div>
+
+</div>
+
+</body>
+</html>

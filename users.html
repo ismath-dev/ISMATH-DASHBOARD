@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Users</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <div class="sidebar">
+
+    <div>
+      <div class="logo">ISMATH <span>DASHBOARD</span></div>
+
+      <div class="menu">
+        <a href="dashboard.html">📊 Dashboard</a>
+        <a href="analytics.html">📈 Analytics</a>
+        <a class="active" href="users.html">👤 Users</a>
+        <a href="orders.html">📦 Orders</a>
+        <a href="messages.html">💬 Messages</a>
+        <a href="notifications.html">🔔 Notifications</a>
+        <a href="settings.html">⚙ Settings</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="profile">
+        <img src="https://i.pravatar.cc/80?img=12" class="avatar">
+        <div>
+          <b>Admin</b>
+          <small class="online">● Online</small>
+        </div>
+      </div>
+
+      <div class="logout">
+        <a href="index.html">🚪 Logout</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="main">
+
+    <div class="topbar">
+      <div>
+        <h1>Users Management 👤</h1>
+        <p>Manage all registered users</p>
+      </div>
+
+      <form class="search-box" action="https://www.google.com/search" method="GET">
+
+  <span class="search-icon">🔍</span>
+
+  <input 
+    type="text" 
+    name="q" 
+    placeholder="Search users..." 
+    autocomplete="off"
+  >
+</form>
+    </div>
+
+    <div class="table">
+
+      <table>
+
+        <tr>
+          <th>User</th>
+          <th>Email</th>
+          <th>Status</th>
+          <th>Role</th>
+          <th>Action</th>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="user-info">
+              <img src="https://i.pravatar.cc/100?img=12" class="avatar">
+              Ali Khan
+            </div>
+          </td>
+          <td>ali@gmail.com</td>
+          <td class="success">Online</td>
+          <td>Admin</td>
+          <td><button class="view-btn" onclick="location.href='user1.html'">View</button></td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="user-info">
+              <img src="https://i.pravatar.cc/100?img=32" class="avatar">
+              Sarah Wilson
+            </div>
+          </td>
+          <td>sarah@gmail.com</td>
+          <td class="failed">Offline</td>
+          <td>Editor</td>
+          <td><button class="view-btn" onclick="location.href='user2.html'">View</button></td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="user-info">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" class="avatar">
+              Rahul Sharma
+            </div>
+          </td>
+          <td>rahul@gmail.com</td>
+          <td class="success">Online</td>
+          <td>User</td>
+          <td><button class="view-btn" onclick="location.href='user3.html'">View</button></td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="user-info">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" class="avatar">
+              Ayesha Khan
+            </div>
+          </td>
+          <td>ayesha@gmail.com</td>
+          <td class="success">Online</td>
+          <td>Moderator</td>
+          <td><button class="view-btn" onclick="location.href='user4.html'">View</button></td>
+        </tr>
+
+      </table>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

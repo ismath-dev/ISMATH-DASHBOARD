@@ -1,0 +1,147 @@
+body{
+  margin:0;
+  font-family:'Inter',sans-serif;
+  background:#0b1220;
+  color:#e5e7eb;
+}
+
+.center{
+  height:100vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  padding:20px;
+}
+
+.card{
+  width:360px;
+
+  background:#111827;
+
+  padding:32px;
+
+  border-radius:18px;
+  border:1px solid #1f2937;
+
+  text-align:center;
+
+  box-shadow:0 12px 35px rgba(0,0,0,.45);
+}
+
+.card h2{
+  margin:0;
+
+  font-size:26px;
+}
+
+.card p{
+  margin-top:8px;
+
+  color:#94a3b8;
+  font-size:13px;
+}
+
+form{
+  margin-top:20px;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+  gap:14px;
+}
+
+input{
+  width:92%;
+
+  padding:13px 14px;
+
+  border:1px solid #1f2937;
+  border-radius:12px;
+
+  background:#0f172a;
+  color:white;
+
+  outline:none;
+
+  font-size:14px;
+}
+
+input:focus{
+  border-color:#3b82f6;
+}
+
+button{
+  width:92%;
+
+  padding:13px;
+
+  border:none;
+  border-radius:12px;
+
+  background:#3b82f6;
+  color:white;
+
+  font-size:14px;
+  font-weight:600;
+
+  cursor:pointer;
+
+  transition:.2s;
+}
+
+button:hover{
+  background:#2563eb;
+}
+
+.line{
+  margin:18px 0;
+
+  color:#64748b;
+  font-size:12px;
+
+  text-align:center;
+}
+
+.google{
+  width:92%;
+
+  display:block;
+  margin:auto;
+
+  padding:12px;
+
+  border:1px solid #1f2937;
+  border-radius:12px;
+
+  background:#0f172a;
+  color:white;
+
+  text-decoration:none;
+  text-align:center;
+
+  transition:.2s;
+}
+
+.google:hover{
+  border-color:#3b82f6;
+  background:#111827;
+}
+
+.text{
+  margin-top:18px;
+
+  text-align:center;
+}
+
+.text a{
+  color:#38bdf8;
+
+  text-decoration:none;
+}
+
+.text a:hover{
+  text-decoration:underline;
+}
